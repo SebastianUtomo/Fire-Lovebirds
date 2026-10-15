@@ -51,7 +51,7 @@ export default function App() {
 
     return (
     <main className = "app">
-      <h1>PHX & Chemistry</h1>
+      <h1>Fire lovebirds</h1>
 
       <ProfileCard profile = {currentProfile} onSkip = {skip} onLike = {like} />
 

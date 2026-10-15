@@ -34,7 +34,6 @@
 }
 
 .profile-card__content {
-  font-family:"MyCuteFont";
   position: absolute;
   inset: auto 0 0;
   padding: 90px 24px 24px;
@@ -48,25 +47,22 @@
 }
 
 .profile-card__content h2 {
-  font-family:"MyCuteFont";
-  margin: 0 0 10px;
-  font-size: clamp(1.8rem, 6vw, 2.5rem);
-  line-height: 1;
-  text-shadow: 0 2px 8px rgb(0 0 0 / 50%);
+  font-family: "MyCuteFont", cursive;
 }
 
-.profile-card__content p {
-  margin: 8px 0;
+.profile-card__description {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  line-height: 1.45;
 }
 
 .profile-card__pickup {
+  font-family: "MyCuteFont", cursive;
+  font-size: 1.15rem;
+  font-style: italic;
+
   padding-left: 12px;
   border-left: 3px solid #ff4d7d;
-
   color: #ffd5e1;
-  font-style: italic;
 }
 
 .profile-card {
