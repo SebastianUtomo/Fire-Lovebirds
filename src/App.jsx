@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import "./App.css"
 import sebastian from "./assets/images/sebastian.jpg"
 import james from "./assets/images/james.jpg"
@@ -70,6 +71,7 @@ export default function App() {
       )}
 
       <HeartBurst key={heartBurst} />
+      <Analytics />
     </main>
     );
 }
